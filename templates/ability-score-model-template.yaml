@@ -1,0 +1,154 @@
+--- !!python/object:angband_solver.models.AbilityScoreModel
+abilities:
+  RACID:
+    type: BINARY
+    value: 1
+  RELEC:
+    type: BINARY
+    value: 1
+  RFIRE:
+    type: BINARY
+    value: 1
+  RCOLD:
+    type: BINARY
+    value: 1
+  RPOIS:
+    type: BINARY
+    value: 1
+  RLITE:
+    type: BINARY
+    value: 1
+  RDARK:
+    type: BINARY
+    value: 1
+  SOUND:
+    type: BINARY
+    value: 1
+  SHARD:
+    type: BINARY
+    value: 1
+  NEXUS:
+    type: BINARY
+    value: 1
+  NETHR:
+    type: BINARY
+    value: 1
+  CHAOS:
+    type: BINARY
+    value: 1
+  DISEN:
+    type: BINARY
+    value: 1
+  PFEAR:
+    type: BINARY
+    value: 0.5
+  PBLND:
+    type: BINARY
+    value: 0.5
+  PCONF:
+    type: BINARY
+    value: 1
+  PSTUN:
+    type: BINARY
+    value: 1
+  HLIFE:
+    type: BINARY
+    value: 1
+  REGEN:
+    type: BINARY
+    value: 0.1
+  ESP:
+    type: BINARY
+    value: 0.5
+  INVIS:
+    type: BINARY
+    value: 1
+  FRACT:
+    type: BINARY
+    value: 1
+  FEATH:
+    type: BINARY
+    value: 0.01
+  S_DIG:
+    type: BINARY
+    value: 0.01
+  IMPHP:
+    type: BINARY
+    value: 1
+  FEAR:
+    type: BINARY
+    value: -1
+  AGGRV:
+    type: BINARY
+    value: -1
+  STEA_:
+    type: INCREMENTAL
+    value: 0.1
+    multiplier: 0.1
+  SEAR_:
+    type: INCREMENTAL
+    value: 0.01
+    multiplier: 0.01
+  INFRA:
+    type: INCREMENTAL
+    value: 0
+    multiplier: 0
+  TUNN_:
+    type: INCREMENTAL
+    value: 0
+    multiplier: 0
+  SPEED:
+    type: INCREMENTAL
+    value: 0.05
+    multiplier: 0.05
+  BLOWS:
+    type: INCREMENTAL
+    value: 1
+    multiplier: 1
+  SHOTS:
+    type: INCREMENTAL
+    value: 0.5
+    multiplier: 0.5
+  MIGHT:
+    type: INCREMENTAL
+    value: 0.1
+    multiplier: 0.1
+  LIGHT:
+    type: INCREMENTAL
+    value: 0.1
+    multiplier: 0.1
+  SSTR:
+    type: BINARY
+    value: 0.75
+  SDEX:
+    type: BINARY
+    value: 0.75
+  SINT:
+    type: BINARY
+    value: 0.1
+  SWIS:
+    type: BINARY
+    value: 0.1
+  SCON:
+    type: BINARY
+    value: 1
+  PSTR:
+    type: INCREMENTAL
+    value: 0.1
+    multiplier: 0.1
+  PDEX:
+    type: INCREMENTAL
+    value: 0.05
+    multiplier: 0.05
+  PINT:
+    type: INCREMENTAL
+    value: 0.01
+    multiplier: 0.01
+  PWIS:
+    type: INCREMENTAL
+    value: 0.01
+    multiplier: 0.01
+  PCON:
+    type: INCREMENTAL
+    value: 0.1
+    multiplier: 0.1

@@ -1,0 +1,404 @@
+--- !!python/object:angband_solver.models.EquipmentModel
+# Equipment ability names can be one of the following:
+#    RACID
+#    RELEC
+#    RFIRE
+#    RCOLD
+#    RPOIS
+#    RLITE
+#    RDARK
+#    SOUND
+#    SHARD
+#    NEXUS
+#    NETHR
+#    CHAOS
+#    DISEN
+#    PFEAR
+#    PBLND
+#    PCONF
+#    PSTUN
+#    HLIFE
+#    REGEN
+#    ESP
+#    INVIS
+#    FRACT
+#    FEATH
+#    S_DIG
+#    IMPHP
+#    FEAR
+#    AGGRV
+#    STEA_
+#    SEAR_
+#    INFRA
+#    TUNN_
+#    SPEED
+#    BLOWS
+#    SHOTS
+#    MIGHT
+#    LIGHT
+#    SSTR
+#    SDEX
+#    SINT
+#    SWIS
+#    SCON
+#    PSTR
+#    PDEX
+#    PINT
+#    PWIS
+#    PCON
+
+equipment_list:
+  - name: Spear Aiglos
+    type: MELEE
+    abilities:
+      RCOLD: 1
+      PFEAR: 1
+      S_DIG: 1
+      FRACT: 1
+      PWIS: 2
+      PDEX: 4
+  - name: Trident of Ulmo
+    type: MELEE
+    abilities:
+      HLIFE: 1
+      FRACT: 1
+      INVIS: 1
+      S_DIG: 1
+      NETHR: 1
+      RACID: 1
+      PDEX: 4
+  - name: Trident of Wrath
+    type: MELEE
+    abilities:
+      RLITE: 1
+      RDARK: 1
+      INVIS: 1
+      PSTR: 2
+      PDEX: 2
+  - name: Blade of Chaos of Gondolin
+    type: MELEE
+    abilities:
+      LIGHT: 1
+      RDARK: 1
+      CHAOS: 1
+      PSTUN: 1
+      INVIS: 1
+      FRACT: 1
+  - name: Long Bow Belthronding
+    type: SHOOTER
+    abilities:
+      SHOTS: 1
+      SPEED: 1
+      STEA_: 1
+      PDEX: 3
+      DISEN: 1
+  - name: Light Crossbow of the Haradrim
+    type: SHOOTER
+    abilities:
+      SHOTS: 1
+      MIGHT: 1
+  - name: Band of Tulkas
+    type: RING
+    abilities:
+      PSTR: 4
+      PDEX: 4
+      PCON: 4
+      PFEAR: 1
+  - name: Ring of Barahir
+    type: RING
+    abilities:
+      RPOIS: 1
+      RDARK: 1
+      PSTR: 1
+      PDEX: 1
+      PCON: 1
+      PWIS: 1
+      PINT: 1
+      STEA_: 1
+  - name: Ring of Speed 1
+    type: RING
+    abilities:
+      SPEED: 11
+  - name: Ring of Speed 2
+    type: RING
+    abilities:
+      SPEED: 11
+  - name: Amulet of Trickery
+    type: AMULET
+    abilities:
+      PDEX: 3
+      SDEX: 1
+      SEAR_: 5
+      STEA_: 2
+      INFRA: 5
+      SPEED: 2
+      RPOIS: 1
+      NEXUS: 1
+  - name: Amulet of Weapon Mastery
+    type: AMULET
+    abilities:
+      DISEN: 1
+      PFEAR: 1
+      PSTR: 3
+      SSTR: 1
+      SCON: 1
+      FRACT: 1
+  - name: Amulet of Devotion
+    type: AMULET
+    abilities:
+      RFIRE: 1
+      RLITE: 1
+      RDARK: 1
+      HLIFE: 1
+      PWIS: 3
+      SWIS: 1
+      LIGHT: 1
+  - name: Arkenstone of Thrain
+    type: LIGHT
+    abilities:
+      LIGHT: 3
+      RLITE: 1
+      RDARK: 1
+      INVIS: 1
+      HLIFE: 1
+  - name: Adamantite Plate Mail Soulkeeper
+    type: BODY
+    abilities:
+      RACID: 1
+      RCOLD: 1
+      RDARK: 1
+      NEXUS: 1
+      NETHR: 1
+      CHAOS: 1
+      PFEAR: 1
+      PCON: 2
+      SCON: 1
+      HLIFE: 1
+  - name: Balance Dragon Scale Mail of Elvenkind
+    type: BODY
+    abilities:
+      RACID: 1
+      RELEC: 1
+      RFIRE: 1
+      RCOLD: 1
+      SOUND: 1
+      SHARD: 1
+      NETHR: 1
+      CHAOS: 1
+      DISEN: 1
+      STEA_: 1
+  - name: Bar Chain Mail of Elvenkind
+    type: BODY
+    abilities:
+      RACID: 1
+      RELEC: 1
+      RFIRE: 1
+      RCOLD: 1
+      CHAOS: 1
+      STEA_: 1
+  - name: Law Dragon Scale Mail of Craftsmanship
+    type: BODY
+    abilities:
+      SOUND: 1
+      SHARD: 1
+  - name: Full Plate Armor of Isildur
+    type: BODY
+    abilities:
+      RACID: 1
+      RELEC: 1
+      RFIRE: 1
+      RCOLD: 1
+      SOUND: 1
+      NEXUS: 1
+      PCONF: 1
+      PCON: 1
+  - name: Soft leather armor Hithlomir
+    type: BODY
+    abilities:
+      RACID: 1
+      RELEC: 1
+      RFIRE: 1
+      RCOLD: 1
+      RDARK: 1
+      NETHR: 1
+      STEA_: 3
+  - name: Fur Cloak of Aman
+    type: CLOAK
+    abilities:
+      NEXUS: 1
+      STEA_: 1
+  - name: Cloak Colannon
+    type: CLOAK
+    abilities:
+      NEXUS: 1
+      SPEED: 2
+      STEA_: 2
+  - name: Jewel Encrusted Crown of Serenity
+    type: HEAD
+    abilities:
+      SOUND: 1
+      PFEAR: 1
+      PCONF: 1
+      PSTUN: 1
+  - name: Iron Crown of Might
+    type: HEAD
+    abilities:
+      FRACT: 1
+      PSTR: 3
+      PDEX: 1
+      PCON: 3
+      SSTR: 1
+      SDEX: 1
+      SCON: 1
+  - name: Metal Cap of Thengel
+    type: HEAD
+    abilities:
+      PCONF: 1
+      PWIS: 3
+  - name: Steel Helm of Hammerhand
+    type: HEAD
+    abilities:
+      RACID: 1
+      RCOLD: 1
+      NEXUS: 1
+      RDARK: 1
+      PSTR: 3
+      PDEX: 3
+      PCON: 3
+      FRACT: 1
+  - name: Hard Cap of Thranduil
+    type: HEAD
+    abilities:
+      PBLND: 1
+      PINT: 2
+      PWIS: 2
+      ESP: 1
+  - name: Iron Helm Holhenneth
+    type: HEAD
+    abilities:
+      INVIS: 1
+      PBLND: 1
+      PCONF: 1
+      SEAR_: 2
+      PINT: 2
+      PWIS: 2
+  - name: Golden Crown of Gondor
+    type: HEAD
+    abilities:
+      RFIRE: 1
+      RCOLD: 1
+      RLITE: 1
+      PBLND: 1
+      PCONF: 1
+      PSTUN: 1
+      REGEN: 1
+      INVIS: 1
+      PSTR: 3
+      PWIS: 2
+      PCON: 3
+      LIGHT: 1
+  - name: Leather Gloves Cambeleg
+    type: HANDS
+    abilities:
+      PSTR: 2
+      PCON: 2
+      FRACT: 1
+  - name: Pair of Leather Boots Dal-i-thalion
+    type: FEET
+    abilities:
+      SPEED: 5
+      PDEX: 5
+      SCON: 5
+      NETHR: 1
+      PCONF: 1
+      FRACT: 1
+  - name: Iron Shod Boots of Speed
+    type: FEET
+    abilities:
+      SPEED: 10
+  - name: Self
+    type: SELF
+    abilities:
+      PFEAR: 1
+  - name: Small Metal Shield of Thorin
+    type: SHIELD
+    abilities:
+      RACID: 1
+      SOUND: 1
+      CHAOS: 1
+      PFEAR: 1
+      FRACT: 1
+      PSTR: 3
+      PCON: 4
+      STEA_: -1
+  - name: Large Metal Shield of Anarion
+    type: SHIELD
+    abilities:
+      RACID: 1
+      RELEC: 1
+      RFIRE: 1
+      RCOLD: 1
+      SSTR: 1
+      SINT: 1
+      SWIS: 1
+      SDEX: 1
+      SCON: 1
+  - name: Mithril Shield of Gilgal
+    type: SHIELD
+    abilities:
+      RACID: 1
+      RELEC: 1
+      RDARK: 1
+      DISEN: 1
+      PWIS: 5
+      SWIS: 1
+      SDEX: 1
+      LIGHT: 1
+  - name: Wicker Shield of Preservation
+    type: SHIELD
+    abilities:
+      HLIFE: 1
+      SSTR: 1
+      SDEX: 1
+      SCON: 1
+      SOUND: 1
+      DISEN: 1
+  - name: Wicker Shield of Elvenkind
+    type: SHIELD
+    abilities:
+      STEA_: 1
+      RACID: 1
+      RELEC: 1
+      RFIRE: 1
+      RCOLD: 1
+      CHAOS: 1
+  - name: Leather Shield of the Haradrim
+    type: SHIELD
+    abilities:
+      PSTR: 2
+      PCON: 2
+      RPOIS: 1
+      PFEAR: 1
+      PBLND: 1
+      SSTR: 1
+      SCON: 1
+  - name: Leather Shield of the Celegorm
+    type: SHIELD
+    abilities:
+      RACID: 1
+      RELEC: 1
+      RFIRE: 1
+      RCOLD: 1
+      RLITE: 1
+      RDARK: 1
+      PBLND: 1
+  - name: Wicker Shield of Elros
+    type: SHIELD
+    abilities:
+      RELEC: 1
+      SHARD: 1
+      PCONF: 1
+      PINT: 1
+      PWIS: 1
+      PCON: 4
+      HLIFE: 1
